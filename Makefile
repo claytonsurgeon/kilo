@@ -10,4 +10,4 @@ all: kilo
 	./build/kilo
 
 kilo: kilo.c
-	$(CC) kilo.c -o ./build/kilo -Wall -Wextra -pedantic -std=c11
+	$(CC) kilo.c -o ./build/kilo -Wall -Wextra -pedantic -std=c17
